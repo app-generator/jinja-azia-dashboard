@@ -1,8 +1,8 @@
-# [Jinja Template](https://github.com/app-generator/jinja-template)
+# [Jinja Template](https://appseed.us/jinja-template) Azia Dashboard
 
 > Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple starters coded in [Flask](https://palletsprojects.com/p/flask/) - Features:
 
-- UI Kit: **Neumorphism UI** (Free Version) by **Themesberg**
+- UI Kit: **Azia Dashboard** (Free Version) by **BootstrapDash**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
@@ -11,12 +11,12 @@
 
 > Links
 
-- [LIVE Demo](https://theme-jinja2.appseed.us/) - starter in action
-- [Jinja Template](https://github.com/app-generator/jinja-template) - A curated list with Jinja projects that use this template
+- [Jinja Azia Dashboard](https://jinja-azia-dashboard.appseed-srv1.com/) - starter in action
+- More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
 
-![Jinja Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2/master/media/theme-jinja2-screen.png)
+![Jinja Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-azia-dashboard/master/media/jinja-azia-dashboard-screen.png)
 
 <br />
 
@@ -24,8 +24,8 @@
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-azia-dashboard.git
+$ cd jinja-azia-dashboard
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -114,8 +114,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-azia-dashboard.git
+$ cd jinja-azia-dashboard
 ```
 
 > Start the app in Docker
@@ -140,8 +140,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-azia-dashboard.git
+$ cd jinja-azia-dashboard
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
@@ -212,4 +212,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template](https://theme-jinja2.appseed.us/) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://appseed.us/jinja-template) Azia Dashboard - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).

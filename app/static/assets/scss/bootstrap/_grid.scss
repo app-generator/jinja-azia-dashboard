@@ -1,52 +1,55 @@
-// Container widths
-//
-// Set the container width, and override it for fixed navbars in media queries.
+/* ###### 3.10 Grid ###### */
 
-@if $enable-grid-classes {
-  .container {
-    @include make-container();
-    @include make-container-max-widths();
+.row-sm {
+  margin-left: -10px;
+  margin-right: -10px;
+
+  > div {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
-// Fluid container
-//
-// Utilizes the mixin meant for fixed width containers, but with 100% width for
-// fluid, full width layouts.
+.row-xs {
+  margin-left: -5px;
+  margin-right: -5px;
 
-@if $enable-grid-classes {
-  .container-fluid {
-    @include make-container();
+  > div {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
-// Row
-//
-// Rows contain and clear the floats of your columns.
+@mixin create-row($padding) {
+  margin-left: -$padding;
+  margin-right: -$padding;
 
-@if $enable-grid-classes {
-  .row {
-    @include make-row();
-  }
-
-  // Remove the negative margin from default .row, then the horizontal padding
-  // from all immediate children columns (to prevent runaway style inheritance).
-  .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-
-    > .col,
-    > [class*="col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
+  > div {
+    padding-left: $padding;
+    padding-right: $padding;
   }
 }
 
-// Columns
-//
-// Common styles for small and large grid columns
+@include media-breakpoint-up(sm) {
+  .row-xs--sm { @include create-row(5px); }
+  .row-sm--sm { @include create-row(10px); }
+  .row--sm { @include create-row(15px); }
+}
 
-@if $enable-grid-classes {
-  @include make-grid-columns();
+@include media-breakpoint-up(md) {
+  .row-xs--md { @include create-row(5px); }
+  .row-sm--md { @include create-row(10px); }
+  .row--md { @include create-row(15px); }
+}
+
+@include media-breakpoint-up(lg) {
+  .row-xs--lg { @include create-row(5px); }
+  .row-sm--lg { @include create-row(10px); }
+  .row--lg { @include create-row(15px); }
+}
+
+@include media-breakpoint-up(xl) {
+  .row-xs--xl { @include create-row(5px); }
+  .row-sm--xl { @include create-row(10px); }
+  .row--xl { @include create-row(15px); }
 }
