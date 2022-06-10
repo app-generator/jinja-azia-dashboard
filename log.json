@@ -1,0 +1,23 @@
+{
+    "backend": "flask",
+    "db_name": "",
+    "db_pass": "",
+    "db_type": "",
+    "db_user": "",
+    "dbms": "0",
+    "description": "generated product",
+    "design": "azia-dashboard",
+    "docker": "1",
+    "err_code": 0,
+    "frontend": "",
+    "heroku": "0",
+    "pattern": "mvc",
+    "pro": "0",
+    "task_id": "d9d729d0-a5d7-4f34-a8e1-04284cb23e04",
+    "task_info": "Task is finished",
+    "task_output": "d9d729d0-a5d7-4f34-a8e1-04284cb23e04.zip",
+    "task_result": "SUCCESS",
+    "task_state": "FINISHED",
+    "task_ts_end": "2022-06-10-13-04-51",
+    "task_ts_start": "2022-06-10-12-58-04"
+}
